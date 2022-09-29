@@ -55,6 +55,16 @@ public class Cubo {
         this.profundo = profundo;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Cubo{alto=").append(alto);
+        sb.append(", ancho=").append(ancho);
+        sb.append(", profundo=").append(profundo);
+        sb.append('}');
+        return sb.toString();
+    }
+
   
     
 }
