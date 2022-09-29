@@ -32,20 +32,26 @@ public class Principal {
         
         System.out.println("El volumen total es : " + alt + " * " + anch +
                 " * " + prof + " = " + calculo.calcular(alt, anch, prof));
+     
+        
+        System.out.println("====================");
+           Cubo cubo1 = new Cubo(12,12,12);
+        int res = cubo1.calcular(cubo1.getAlto(),cubo1.getAncho(),
+                cubo1.getProfundo());
+        System.out.println("El resultado del volumen de mi cubo es = " + res);
         
         
-        
+        System.out.println("====================");
         System.out.println("Introduce el valor de la altura: ");
         int a = lectura.nextInt();
-        
         System.out.println("Introduce el valor de la anchura: ");
         int b = lectura.nextInt();
-        
         System.out.println("Introduce el valor de la profundidad: ");
         int c = lectura.nextInt();
-        
         System.out.println("El calculo del volumen es: "+ a + " * " + b +
                 " * " + c + " = " + calculo.calcular(a, b, c));
         
+        
+     
     }
 }

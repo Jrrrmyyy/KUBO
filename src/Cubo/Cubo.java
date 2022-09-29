@@ -30,15 +30,30 @@ public class Cubo {
       }
     
     
-    
-   /* 2 constructores (Vacio y con 3 argumentos)
-    getters setters
-    metodo calcular volumen (argumento a,b,c) -> devuelve volumen cubo
-    
-    1 clase principal
-    Donde se vea el cubo1 con los valores q queramos (4,7,10)
-    calcular volumen de cubo1
-    esto en pantalla */
+
+    public int getAlto() {
+        return alto;
+    }
+
+    public void setAlto(int alto) {
+        this.alto = alto;
+    }
+
+    public int getAncho() {
+        return ancho;
+    }
+
+    public void setAncho(int ancho) {
+        this.ancho = ancho;
+    }
+
+    public int getProfundo() {
+        return profundo;
+    }
+
+    public void setProfundo(int profundo) {
+        this.profundo = profundo;
+    }
 
   
     
